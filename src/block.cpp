@@ -1,6 +1,8 @@
 #include "block.h"
 
-Block::Block(){
+Block::Block(int index, std::string transaction){
+    this->index_ = index;
+    this->transaction_ = transaction;
 
 }
 

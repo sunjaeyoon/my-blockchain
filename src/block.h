@@ -8,14 +8,15 @@ class Block
 {
 private:
     /* data */
-    int index;
-    std::string transaction;
-    int timestamp;  
-    int hash;
-    int nounce;
+    int index_;
+    std::string transaction_;
+    //timestamp;  
+    //int hash;
+    //int previous_hash;
+    //int nounce;
 
 public:
-    Block(/* args */);
+    Block(int index, std::string transaction);
     ~Block();
 };
 
